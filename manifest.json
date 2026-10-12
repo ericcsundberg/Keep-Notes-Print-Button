@@ -1,0 +1,1 @@
+{"content_scripts":[{"css":["styles.css"],"js":["content.js"],"matches":["https://keep.google.com/*"],"run_at":"document_idle"}],"description":"Adds a small hover print button to Google Keep notes to print directly via the system print dialog.","host_permissions":["https://keep.google.com/*"],"manifest_version":3,"name":"Keep Print Button","version":"1.0.2"}
